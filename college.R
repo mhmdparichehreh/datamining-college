@@ -12,7 +12,7 @@ library("randomForest")   #Random Forests for Classification and Regression
 ##Read Data from File----------------------------
 #college dataset : Statistics for a large number of US Colleges from the 1995 issue of US News and World Report
 
-college <- read.csv("College.csv", header = TRUE)
+college <- read.csv("data/college.csv", header = TRUE)
 data1 <- college
 View(data1)
 
